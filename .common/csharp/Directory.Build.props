@@ -9,8 +9,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="$(MSBuildThisFileDirectory)../../.common/csharp/GlobalUsings.cs" Link="Properties\GlobalUsings.cs" />
-        <Compile Include="$(MSBuildThisFileDirectory)../../.common/csharp/Solver.cs" Link="Properties\Solver.cs" />
+        <Compile Include="$(MSBuildThisFileDirectory)GlobalUsings.cs" Link="Properties\GlobalUsings.cs" />
+        <Compile Include="$(MSBuildThisFileDirectory)Solver.cs" Link="Properties\Solver.cs" />
         <EmbeddedResource Include="../../.data/$(ProjectName)/data1.txt" />
         <EmbeddedResource Include="../../.data/$(ProjectName)/data2.txt" />
     </ItemGroup>
